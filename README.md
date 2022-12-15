@@ -1,2 +1,2 @@
 # GreetAR321.github.io
-Attempting Github pages
+Website for FYP project 
