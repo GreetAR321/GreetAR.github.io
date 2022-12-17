@@ -39,13 +39,13 @@
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Download</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="login.html">Login</a></li>
                 </ul>
-                <!-- <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal"
+                <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal"
                     data-bs-target="#feedbackModal">
                     <span class="d-flex align-items-center">
                         <i class="bi-chat-text-fill me-2"></i>
-                        <span class="small">Send Feedback</span>
+                        <span class="small">Upload Custom Message</span>
                     </span>
-                </button> -->
+                </button>
             </div>
         </div>
     </nav>
@@ -293,7 +293,8 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <p class="large text-muted">A group with the aim to build a product to change how people send and receive greeting cards.</p>
+                    <p class="large text-muted">A group with the aim to build a product to change how people send and
+                        receive greeting cards.</p>
                 </div>
             </div>
         </div>
@@ -333,7 +334,7 @@
                         <div class="form-floating mb-3">
                             <input class="form-control" id="name" type="text" placeholder="Enter your name..."
                                 data-sb-validations="required" />
-                            <label for="name">Full name</label>
+                            <label for="name">Full Name</label>
                             <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                         </div>
                         <!-- Email address input-->
@@ -359,6 +360,22 @@
                                 data-sb-validations="required"></textarea>
                             <label for="message">Message</label>
                             <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                            </div>
+                        </div>
+                        <!-- Image input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="image" type="file" placeholder="your card image"
+                                data-sb-validations="required" />
+                            <label for="image">Image</label>
+                            <div class="invalid-feedback" data-sb-feedback="image:required">A greeting card image is required.
+                            </div>
+                        </div>
+                        <!-- Video input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="video" type="file" placeholder="your-custom-video.mp4"
+                                data-sb-validations="required" />
+                            <label for="video">Video</label>
+                            <div class="invalid-feedback" data-sb-feedback="video:required">A video is required.
                             </div>
                         </div>
                         <!-- Submit success message-->
